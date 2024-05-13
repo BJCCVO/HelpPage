@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'calibri', 'arial', 'candara';
+}
+
+body {
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgba(2, 15, 89);
+    box-shadow: 3px 3px 5px 0.1;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav a:hover {
+    color:aqua;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-size: 35px;
+}
+
+p {
+    color:rgba(2, 15, 89)
+}
+
+.Social {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.upcoming {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+th {
+    padding: 8px;
+}
